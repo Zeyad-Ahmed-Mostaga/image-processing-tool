@@ -25,6 +25,7 @@ This is a user-friendly Streamlit web app that allows you to apply a variety of 
 
 ---
 
+
 ## 🔧 How to Run
 
 1. **Clone the repository**
@@ -32,39 +33,10 @@ This is a user-friendly Streamlit web app that allows you to apply a variety of 
 ```bash
 git clone https://github.com/yourusername/image-processing-tool.git
 cd image-processing-tool
-
-
+```
 Install dependencies
-
-bash
-Copy
-Edit
+```bash
 pip install -r requirements.txt
-Run the Streamlit app
-
-bash
-Copy
-Edit
+```
+```bash
 streamlit run app.py
-📦 Dependencies
-Python 3.7+
-
-Streamlit
-
-OpenCV (cv2)
-
-NumPy
-
-Pillow
-
-All required libraries are listed in requirements.txt.
-
-📂 Project Structure
-css
-Copy
-Edit
-image-processing-tool/
-├── app.py               ← Main Streamlit app
-├── requirements.txt     ← Python dependencies
-├── demo.gif             ← Demo animation (optional)
-└── README.md            ← This file
